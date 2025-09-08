@@ -1,0 +1,14 @@
+﻿global using Carter;
+global using Ordering.Application.Dtos;
+global using MediatR;
+global using Mapster;
+global using Ordering.Application.Orders.Commands.CreateOrder;
+global using Ordering.Application.Orders.Queries.GetOrders;
+global using Ordering.Application.Pagination;
+global using Ordering.Application.Orders.Commands.UpdateOrder;
+global using Ordering.Application.Orders.Queries.GetOrderByName;
+global using Ordering.Application.Orders.Queries.GetOrdersByCustomer;
+global using Ordering.Application.Orders.Commands.DeleteOrder;
+global using BuildingBlocks.Exceptions.Handler;
+global using HealthChecks.UI.Client;
+global using Microsoft.AspNetCore.Diagnostics.HealthChecks;
